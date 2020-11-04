@@ -1,0 +1,58 @@
+MagAdresy - Adresy w magazynie
+Nazwa	        Typ         Opis	                            Opcje
+MgA_Id	      INTEGER	    Identyfikator adresu	
+MgA_MgOId	    INTEGER	    Identyfikator obszaru	
+MgA_Segment1	VARCHAR(3)	Pierwszy segment adresu (regał)	
+MgA_Segment2	VARCHAR(3)	drugi segment adresu (sekcja)	
+MgA_Segment3	VARCHAR(3)	Trzeci segment adresu (poziom)	
+MgA_Segment4	VARCHAR(1)	Czwarty segment adresu (położenie)	
+MgA_MPAId	    INTEGER	    Identyfikator zestawu parametrów	
+MgA_Opis	    VARCHAR(64)	Opis	
+
+
+Relacje tabeli MagAdresy
+TYP           Ojciec klucz glowny         Dziecko klucz obcy        Pole łączące        Warunek Łaczenia
+              realizowany przez           realizowany przez
+MANY:1        MagObszary                  MagAdresy                 MgO_Id	MgA_MgOId   MgO_Id=MgA_MgOId
+              MgOPrimary                  MgAMgO
+              
+1:MANY        MagAdresy                   Mag_TwrLokaliz            MgA_Id	TwL_MgaId   MgA_Id = TwL_MgaId
+              MgA_Id                      TwL_MgaId
+
+
+MagObszary - Obszary w magazynie
+Nazwa	        Typ	                        Opis	                    Opcje
+MgO_Id	      INTEGER	                    Identyfikator obszaru
+MgO_MagTyp	  SMALLINT	                  Typ identyfikatora magazynu
+MgO_MagNumer	INTEGER	                    Identyfikator magazynu
+MgO_Kod	      VARCHAR(10)	                Kod obszaru
+MgO_Nazwa	    VARCHAR(30)	                Nazwa obszaru
+MgO_Towary	  SMALLINT	                  Składowanie dozwolone 0 - dozwolone składowanie dowolnych towarów 1- dozwolone składowanie tylko wybranych towarów
+
+
+Relacje tabeli MagObszary
+Typ	          Ojciec klucz główny         Dziecko klucz             Pola łączące	      Warunek łączenia
+              realizowana przez	          obcy realizowana przez
+              	
+1:MANY        MagObszary                  MagAdresy                 MgO_Id	MgA_MgOId   MgO_Id=MgA_MgOId
+              MgOPrimary                  MgAMgO
+
+
+Mag_TwrLokaliz – Lokalizacje preferowane dla towarów
+
+Nazwa       	Typ	                        Opis	                    Opcje
+TwL_Id	      INTEGER	                    Identyfikator lokalizacji preferowanej	
+TwL_MagId	    INTEGER	                    Identyfikator magazynu	
+TwL_MgaId	    INTEGER	                    Identyfikator adresu	
+TwL_Gidlp	    INTEGER	                    Indeks lokalizacji preferowanej	
+TwL_TwrNumer	INTEGER	                    Nazwa towaru	
+
+
+Relacje tabeli Mag_TwrLokaliz
+Zadania:
+1.	Stwórz w MSSQL-u dla dowolnego użytkownika zapytanie zwracające wszystkie Identyfikatory adresu oraz ich nazwę zbudowaną według zasady (MgO_Kod - MgA_Segment1- MgA_Segment2 - MgA_Segment3 opcjonalnie jeśli istnieje wartość w polu MgA_Segment4 wtedy (- MgA_Segment4)) dla obszaru o kodzie MgO_Kod =A i magazynu MgO_MagNumer =1. 
+2.	Dla select z punktu 1  zawęzić odpowiedź  do zwracania lokalizacji, które posiadają lokalizacje preferowane (Mag_TwrLokaliz) związane z towarem TwL_TwrNumer=878
+3.	Dla select z punktu 1 wyświetl wszystkie MgA_Id z tabeli MagAdresy, które nie posiadają jakichkolwiek związanych ze sobą lokalizacji preferowanych(Mag_TwrLokaliz).
+4.	Dodać w MSSQL-u do tabeli MagAdresy kolumnę MgA_Opis przy czym dodawać ją tylko w momencie gdy taka kolumna w tej tabeli nie istnieje (napisać tą funkcjonalność mimo iż w tabeli do zadań istnieje już taka kolumna)
+5.	Stworzyć trigger w MSSQL-u, który podczas tworzenia bądź zmieniania wiersza w tabeli MagAdresy generuje w polu MgA_Opis kod bazujący na złączeniu pól: MgA_MgOId+MgA_Segment1+ MgA_Segment2+ MgA_Segment3+ MgA_Segment4
+6.	Stworzyć trigger w MSSQL-u  blokujący usunięcie wiersz z tabeli MagAdresy, jeśli istnieje w tabeli Mag_TwrLokaliz lokalizacja preferowana związana z tą pozycją.
