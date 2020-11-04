@@ -1,0 +1,458 @@
+delete from guest.MagAdresy
+go
+delete from guest.MagObszary
+go
+delete from guest.Mag_TwrLokaliz
+go
+
+set IDENTITY_INSERT guest.MagAdresy ON
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6253','4','001','001','001','b','2','1010010010012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6254','4','001','001','002','','2','1001001002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6255','4','001','001','003','','2','1001001003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6256','4','001','002','001','','2','1001002001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6257','4','001','002','002','','2','1001002002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6258','4','001','002','003','','2','1001002003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6268','4','002','001','001','','2','1002001001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6269','4','002','001','002','','2','1002001002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6370','4','002','001','003','','2','1002001003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6371','4','002','002','001','','2','1002002001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6372','4','002','002','002','','2','1002002002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6373','4','002','002','003','','2','1002002003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6298','4','001','003','001','','2','1001003001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('6299','4','001','003','002','','2','1001003002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3700','4','001','003','003','','2','1001003003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3701','4','002','003','001','','2','1002003001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3702','4','002','003','002','','2','1002003002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3703','4','002','003','003','','2','1002003003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3704','4','999','999','999','','1','1999999999')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3705','5','001','001','001','','2','2001001001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3706','5','001','001','002','','2','2001001002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3707','5','001','001','003','','2','2001001003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3708','5','001','002','001','','2','2001002001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3709','5','001','002','002','','2','2001002002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3710','5','001','002','003','','2','2001002003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3711','5','002','001','001','','2','2002001001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3712','5','002','001','002','','2','2002001002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3713','5','002','001','003','','2','2002001003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3714','5','002','002','001','','2','2002002001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3715','5','002','002','002','','2','2002002002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3716','5','002','002','003','','2','2002002003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3717','5','999','999','999','','1','2999999999')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3718','9','000','000','000','a','1','10000000001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3719','9','000','000','000','b','1','10000000002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3720','9','000','000','000','c','1','10000000003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3721','9','000','000','001','a','1','10000000011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3722','9','000','000','001','b','1','10000000012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3723','9','000','000','001','c','1','10000000013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3724','9','000','000','002','a','1','10000000021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3725','9','000','000','002','b','1','10000000022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3762','9','000','000','002','c','1','10000000023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3737','9','000','000','003','a','1','10000000031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3748','9','000','000','003','b','1','10000000032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3729','9','000','000','003','c','1','10000000033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3730','9','000','001','000','a','1','10000010001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3731','9','000','001','000','b','1','10000010002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3732','9','000','001','000','c','1','10000010003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3733','9','000','001','001','a','1','10000010011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3734','9','000','001','001','b','1','10000010012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3735','9','000','001','001','c','1','10000010013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3736','9','000','001','002','a','1','10000010021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3737','9','000','001','002','b','1','10000010022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3738','9','000','001','002','c','1','10000010023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3739','9','000','001','003','a','1','10000010031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3740','9','000','001','003','b','1','10000010032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3741','9','000','001','003','c','1','10000010033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3742','9','000','002','000','a','1','10000020001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3743','9','000','002','000','b','1','10000020002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3744','9','000','002','000','c','1','10000020003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3745','9','000','002','001','a','1','10000020011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3746','9','000','002','001','b','1','10000020012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3747','9','000','002','001','c','1','10000020013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3748','9','000','002','002','a','1','10000020021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3749','9','000','002','002','b','1','10000020022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3750','9','000','002','002','c','1','10000020023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3751','9','000','002','003','a','1','10000020031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3752','9','000','002','003','b','1','10000020032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3753','9','000','002','003','c','1','10000020033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3754','9','000','003','000','a','1','10000030001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3755','9','000','003','000','b','1','10000030002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3756','9','000','003','000','c','1','10000030003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3757','9','000','003','001','a','1','10000030011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3758','9','000','003','001','b','1','10000030012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3759','9','000','003','001','c','1','10000030013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3760','9','000','003','002','a','1','10000030021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3761','9','000','003','002','b','1','10000030022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3762','9','000','003','002','c','1','10000030023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3763','9','000','003','003','a','1','10000030031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3764','9','000','003','003','b','1','10000030032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3765','9','000','003','003','c','1','10000030033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3766','9','001','000','000','a','1','10010000001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3767','9','001','000','000','b','1','10010000002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3768','9','001','000','000','c','1','10010000003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3769','9','001','000','001','a','1','10010000011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3770','9','001','000','001','b','1','10010000012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3771','9','001','000','001','c','1','10010000013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3772','9','001','000','002','a','1','10010000021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3773','9','001','000','002','b','1','10010000022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3774','9','001','000','002','c','1','10010000023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3775','9','001','000','003','a','1','10010000031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3776','9','001','000','003','b','1','10010000032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3777','9','001','000','003','c','1','10010000033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3778','9','001','001','000','a','1','10010010001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3779','9','001','001','000','b','1','10010010002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3780','9','001','001','000','c','1','10010010003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3781','9','001','001','001','a','1','10010010011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3782','9','001','001','001','b','1','10010010012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3783','9','001','001','001','c','1','10010010013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3784','9','001','001','002','a','1','10010010021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3785','9','001','001','002','b','1','10010010022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3786','9','001','001','002','c','1','10010010023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3787','9','001','001','003','a','1','10010010031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3788','9','001','001','003','b','1','10010010032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3789','9','001','001','003','c','1','10010010033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3790','9','001','002','000','a','1','10010020001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3791','9','001','002','000','b','1','10010020002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3792','9','001','002','000','c','1','10010020003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3793','9','001','002','001','a','1','10010020011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3794','9','001','002','001','b','1','10010020012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3795','9','001','002','001','c','1','10010020013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3796','9','001','002','002','a','1','10010020021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3797','9','001','002','002','b','1','10010020022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3798','9','001','002','002','c','1','10010020023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('3799','9','001','002','003','a','1','10010020031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4800','9','001','002','003','b','1','10010020032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4801','9','001','002','003','c','1','10010020033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4802','9','001','003','000','a','1','10010030001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4803','9','001','003','000','b','1','10010030002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4804','9','001','003','000','c','1','10010030003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4805','9','001','003','001','a','1','10010030011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4806','9','001','003','001','b','1','10010030012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4807','9','001','003','001','c','1','10010030013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4808','9','001','003','002','a','1','10010030021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4809','9','001','003','002','b','1','10010030022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4810','9','001','003','002','c','1','10010030023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4811','9','001','003','003','a','1','10010030031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4812','9','001','003','003','b','1','10010030032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4813','9','001','003','003','c','1','10010030033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4814','9','002','000','000','a','1','10020000001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4815','9','002','000','000','b','1','10020000002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4816','9','002','000','000','c','1','10020000003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4817','9','002','000','001','a','1','10020000011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4818','9','002','000','001','b','1','10020000012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4819','9','002','000','001','c','1','10020000013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4820','9','002','000','002','a','1','10020000021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4821','9','002','000','002','b','1','10020000022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4822','9','002','000','002','c','1','10020000023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4823','9','002','000','003','a','1','10020000031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4824','9','002','000','003','b','1','10020000032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4825','9','002','000','003','c','1','10020000033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4862','9','002','001','000','a','1','10020010001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4837','9','002','001','000','b','1','10020010002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4848','9','002','001','000','c','1','10020010003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4829','9','002','001','001','a','1','10020010011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4830','9','002','001','001','b','1','10020010012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4831','9','002','001','001','c','1','10020010013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4832','9','002','001','002','a','1','10020010021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4833','9','002','001','002','b','1','10020010022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4834','9','002','001','002','c','1','10020010023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4835','9','002','001','003','a','1','10020010031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4836','9','002','001','003','b','1','10020010032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4837','9','002','001','003','c','1','10020010033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4838','9','002','002','000','a','1','10020020001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4839','9','002','002','000','b','1','10020020002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4840','9','002','002','000','c','1','10020020003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4841','9','002','002','001','a','1','10020020011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4842','9','002','002','001','b','1','10020020012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4843','9','002','002','001','c','1','10020020013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4844','9','002','002','002','a','1','10020020021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4845','9','002','002','002','b','1','10020020022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4846','9','002','002','002','c','1','10020020023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4847','9','002','002','003','a','1','10020020031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4848','9','002','002','003','b','1','10020020032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4849','9','002','002','003','c','1','10020020033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4850','9','002','003','000','a','1','10020030001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4851','9','002','003','000','b','1','10020030002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4852','9','002','003','000','c','1','10020030003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4853','9','002','003','001','a','1','10020030011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4854','9','002','003','001','b','1','10020030012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4855','9','002','003','001','c','1','10020030013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4856','9','002','003','002','a','1','10020030021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4857','9','002','003','002','b','1','10020030022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4858','9','002','003','002','c','1','10020030023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4859','9','002','003','003','a','1','10020030031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4860','9','002','003','003','b','1','10020030032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4861','9','002','003','003','c','1','10020030033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4862','9','003','000','000','a','1','10030000001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4863','9','003','000','000','b','1','10030000002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4864','9','003','000','000','c','1','10030000003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4865','9','003','000','001','a','1','10030000011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4866','9','003','000','001','b','1','10030000012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4867','9','003','000','001','c','1','10030000013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4868','9','003','000','002','a','1','10030000021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4869','9','003','000','002','b','1','10030000022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4870','9','003','000','002','c','1','10030000023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4871','9','003','000','003','a','1','10030000031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4872','9','003','000','003','b','1','10030000032')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4873','9','003','000','003','c','1','10030000033')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4874','9','003','001','000','a','1','10030010001')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4875','9','003','001','000','b','1','10030010002')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4876','9','003','001','000','c','1','10030010003')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4877','9','003','001','001','a','1','10030010011')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4878','9','003','001','001','b','1','10030010012')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4879','9','003','001','001','c','1','10030010013')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4880','9','003','001','002','a','1','10030010021')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4881','9','003','001','002','b','1','10030010022')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4882','9','003','001','002','c','1','10030010023')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4883','9','003','001','003','a','1','10030010031')
+GO
+insert into guest.MagAdresy(MgA_Id,MgA_MgOId,MgA_Segment1,MgA_Segment2,MgA_Segment3,MgA_Segment4,MgA_MPAId,MgA_Opis)values('4884','9','003','001','003','b','1','10030010032')
+GO
+set IDENTITY_INSERT guest.MagAdresy OFF
+GO
+set IDENTITY_INSERT guest.MagObszary ON
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('4','208','1','A','Obszar A','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('5','208','1','B','Obszar B','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('9','208','2','A','','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('11','208','9','A','','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('12','208','9','B','','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('15','208','11','A','','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('33','208','1','X','Obszar X','1')
+GO
+insert into guest.MagObszary(MgO_Id,MgO_MagTyp,MgO_MagNumer,MgO_Kod,MgO_Nazwa,MgO_Towary)values('34','208','1','ZAZ','','1')
+GO
+set IDENTITY_INSERT guest.MagObszary OFF
+GO
+set IDENTITY_INSERT guest.Mag_TwrLokaliz ON
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2095','1','3704','1','878')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2096','1','6373','2','878')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2097','1','2945','1','838')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2098','1','6255','1','621')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2099','1','6254','1','846')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2100','1','6254','1','31')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2101','1','3707','1','855')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2102','1','6254','1','3')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2103','1','6253','1','842')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2104','1','6254','1','13')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2105','1','6253','1','11')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2106','1','6257','1','29')
+GO
+insert into guest.Mag_TwrLokaliz(TwL_Id,TwL_MagId,TwL_MgaId,TwL_Gidlp,TwL_TwrNumer)values('2107','1','6256','3','716')
+GO
+set IDENTITY_INSERT guest.Mag_TwrLokaliz OFF
